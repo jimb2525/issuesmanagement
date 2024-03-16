@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="Issues Data Item">a147c3a147f40a10eb3b7562846d43c1</data_item>
+        <interleaved_field/>
+        <name>354707a147f40a10eb3b7562846d4348 Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-07 17:36:20</sys_created_on>
+        <sys_id>754707a147f40a10eb3b7562846d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>354707a147f40a10eb3b7562846d4348 Item Stream</sys_name>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name>sys_sg_item_stream_754707a147f40a10eb3b7562846d434d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-07 17:36:20</sys_updated_on>
+        <table/>
+    </sys_sg_item_stream>
+</record_update>

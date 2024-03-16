@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New section 1" section_id="e0a51e2cc3e886509d0a212ad001315c" sys_domain="global" table="x_snc_jab_issues_0_issue" version="3" view="">
+        <sys_ui_section action="DELETE">
+            <caption>New section 1</caption>
+            <header>false</header>
+            <name>x_snc_jab_issues_0_issue</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:09:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0a51e2cc3e886509d0a212ad001315c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_jab_issues_0_issue</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+            <sys_update_name>sys_ui_section_e0a51e2cc3e886509d0a212ad001315c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:09:47</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</application>
+        <file_path/>
+        <instance_id>c90f569cdbe9d1d0b847ac44d496198f</instance_id>
+        <instance_name>jbelote16demo</instance_name>
+        <name>sys_ui_section_e0a51e2cc3e886509d0a212ad001315c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New section 1" section_id="e0a51e2cc3e886509d0a212ad001315c" sys_domain="global" table="x_snc_jab_issues_0_issue" version="3" view=""><sys_ui_section action="INSERT_OR_UPDATE"><caption>New section 1</caption><header>false</header><name>x_snc_jab_issues_0_issue</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-21 01:09:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e0a51e2cc3e886509d0a212ad001315c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_jab_issues_0_issue</sys_name><sys_overrides/><sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package><sys_policy/><sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope><sys_update_name>sys_ui_section_e0a51e2cc3e886509d0a212ad001315c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-21 01:09:47</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-2114307405</payload_hash>
+        <record_name>Issue</record_name>
+        <reverted_from/>
+        <source>db1bdd50c3e406509d0a212ad001317c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 01:09:48</sys_created_on>
+        <sys_id>28a51e2cc3e886509d0a212ad00131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dc93630a70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 01:09:48</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>aca51e2c8be8865024bfff6cf8ecdbb9</update_guid>
+        <update_guid_history>aca51e2c8be8865024bfff6cf8ecdbb9:-2114307405</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 01:11:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>205d2d22afe54e80880d2240efa2f204</sys_id>
+        <sys_metadata>e0a51e2cc3e886509d0a212ad001315c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New section 1</sys_name>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_parent display_value="Issue">ba9b9d90c3e406509d0a212ad00131f7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_scope_delete display_value="">07e64666c1fe4dbc8d052053623a9290</sys_scope_delete>
+        <sys_update_name>sys_ui_section_e0a51e2cc3e886509d0a212ad001315c</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_e0a51e2cc3e886509d0a212ad001315c">28a51e2cc3e886509d0a212ad00131ba</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 01:11:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

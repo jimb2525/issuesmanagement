@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>My Template</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>Templated data</short_description>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-07 20:07:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>73d923ad47b80a10eb3b7562846d43a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Template</sys_name>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name>sys_template_73d923ad47b80a10eb3b7562846d43a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-07 20:07:41</sys_updated_on>
+        <table>x_snc_jab_issues_0_issue</table>
+        <template>active=true^client=99264328c360c6509d0a212ad00131ba^client_aware_of_issue=true^client_relationship_details=Client was frustrated^client_relationship_impact=true^confidential_information_disclosure=true^control_gap_in_process=No^deadline_date=2024-03-29^description=Ryan missed an appeal deadline for Texas.^division=United States^eligible_for_risk_acceptance=false^engagement=b6770ba8c360c6509d0a212ad00131e5^executive_summary=New locations were not setup in the system in a timely manner nor assigned to the appropriate team for handling, resulting in missed appeal deadlines.^financial_impact_to_client=Estimated^financial_impact_to_ryan=Known^formatted_description_2=&lt;ul style="list-style-position: inside;"&gt;
+&lt;li&gt;People&lt;br /&gt;o Management Oversight &amp;ndash; The Account Handler did not monitor the setup and assignment&lt;/li&gt;
+&lt;/ul&gt;^impending_deadline=true^issue_awareness_date=2024-02-13^issue_closure_approved=false^issue_date=2024-02-14^jurisdiction=Texas^known_financial_impact_to_client=USD;0.00^known_financial_impact_to_ryan=USD;25000.00^m_a_issue_occurence=After^m_a_related_issue=false^max_est_financial_impact=USD;20000.00^max_est_financial_impact_to_ryan=USD;0.00^min_est_financial_impact=USD;10000.00^min_est_financial_impact_to_ryan=USD;0.00^number=ISS0001017^opened_at=2024-02-21 06:12:11^opened_by=6816f79cc0a8016401c5a33be04be441^period_s_impacted=2023^planned_countermeasures=Ryan team member joined the call with the client and discussed that he feels confident that this case can be resolved using the 2525 process.^priority=4^process_performance_period=Ad-hoc^remediation_tasks_complete=false^root_cause_analysis_required=true^root_cause_category=people^root_cause_description=People
+o Management Oversight – The Account Handler did not monitor the setup and assignment process as the engagement guidelines require. 
+o Communication – The tasks were originally assigned^root_cause_subcategory=Management oversight^stage=analyze^state=1^team_members_responsible=e5ea358087d4c910a75c0e16cebb35d3^testing_required=false^third_party_involved=true^urgent_issue=true^EQ</template>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+        <view/>
+    </sys_template>
+</record_update>

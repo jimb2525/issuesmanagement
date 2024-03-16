@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" audit="true" db_object_id="ba9b9d90c3e406509d0a212ad00131f7" extends="task" label="Issue" max_length="40" name="x_snc_jab_issues_0_issue" type="collection">
+        <element label="Client" max_length="32" name="client" reference="x_snc_jab_issues_0_client" type="reference"/>
+        <element label="Client Aware of Issue?" max_length="40" name="client_aware_of_issue" type="boolean"/>
+        <element label="Client Relationship Details" max_length="200" name="client_relationship_details" type="string"/>
+        <element label="Client Relationship Impact?" max_length="40" name="client_relationship_impact" type="boolean"/>
+        <element label="Confidential Information Disclosure?" max_length="40" name="confidential_information_disclosure" type="boolean"/>
+        <element label="Control Gap Description" max_length="200" name="control_gap_description" type="string"/>
+        <element choice="3" label="Control Gap in Process?" max_length="40" name="control_gap_in_process" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="Unknown" sequence="2" value="unknown"/>
+            </choice>
+        </element>
+        <element label="Deadline Date" max_length="40" name="deadline_date" type="glide_date"/>
+        <element choice="1" label="Division" max_length="40" name="division" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="United States" sequence="0" value="united_states"/>
+                <element inactive_on_update="false" label="Canada" sequence="1" value="canada"/>
+                <element inactive_on_update="false" label="Europe" sequence="2" value="europe"/>
+                <element inactive_on_update="false" label="Asia-Pacific" sequence="3" value="asia_pacific"/>
+                <element inactive_on_update="false" label="tax.com" sequence="4" value="tax_com"/>
+                <element inactive_on_update="false" label="Global Shared Services" sequence="5" value="global_shared_services"/>
+            </choice>
+        </element>
+        <element label="Eligible for Risk Acceptance?" max_length="40" name="eligible_for_risk_acceptance" type="boolean"/>
+        <element label="Engagement" max_length="32" name="engagement" reference="x_snc_jab_issues_0_engagement" type="reference"/>
+        <element label="Executive Summary" max_length="200" name="executive_summary" type="string"/>
+        <element choice="1" label="Financial Impact to Client" max_length="40" name="financial_impact_to_client" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Known" sequence="0" value="known"/>
+                <element inactive_on_update="false" label="Estimated" sequence="1" value="estimated"/>
+            </choice>
+        </element>
+        <element choice="1" label="Financial Impact to Ryan" max_length="40" name="financial_impact_to_ryan" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Known" sequence="0" value="known"/>
+                <element inactive_on_update="false" label="Estimated" sequence="1" value="estimated"/>
+            </choice>
+        </element>
+        <element label="Formatted Executive Summary" max_length="40" name="formatted_description_2" type="html"/>
+        <element label="Impending Deadline?" max_length="40" name="impending_deadline" type="boolean"/>
+        <element label="Issue Awareness Date" max_length="40" name="issue_awareness_date" type="glide_date"/>
+        <element label="Issue Closure Approved?" max_length="40" name="issue_closure_approved" type="boolean"/>
+        <element label="Issue Date" max_length="40" name="issue_date" type="glide_date"/>
+        <element label="Jurisdiction" max_length="200" name="jurisdiction" type="string"/>
+        <element label="Known Financial Impact to Client" max_length="40" name="known_financial_impact_to_client" type="currency"/>
+        <element label="Known Financial Impact to Ryan" max_length="40" name="known_financial_impact_to_ryan" type="currency"/>
+        <element label="Max Est Financial Impact" max_length="40" name="max_est_financial_impact" type="currency"/>
+        <element label="Max Est Financial Impact to Ryan" max_length="40" name="max_est_financial_impact_to_ryan" type="currency"/>
+        <element label="Min Est Financial Impact" max_length="40" name="min_est_financial_impact" type="currency"/>
+        <element label="Min Est Financial Impact to Ryan" max_length="40" name="min_est_financial_impact_to_ryan" type="currency"/>
+        <element label="Monetry Impact" max_length="40" name="monetry_impact" type="currency"/>
+        <element choice="3" label="M &amp; A Issue Occurence" max_length="40" name="m_a_issue_occurence" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Before" sequence="0" value="before"/>
+                <element inactive_on_update="false" label="After" sequence="1" value="after"/>
+            </choice>
+        </element>
+        <element label="M &amp; A Related Company" max_length="100" name="m_a_related_company" type="string"/>
+        <element label="M &amp; A Related Issue?" max_length="40" name="m_a_related_issue" type="boolean"/>
+        <element label="Period(s) Impacted" max_length="100" name="period_s_impacted" type="string"/>
+        <element label="Planned Countermeasures" max_length="200" name="planned_countermeasures" type="string"/>
+        <element choice="3" label="Process Performance Period" max_length="40" name="process_performance_period" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Daily" sequence="0" value="daily"/>
+                <element inactive_on_update="false" label="Weekly" sequence="1" value="weekly"/>
+                <element inactive_on_update="false" label="Monthly" sequence="2" value="monthly"/>
+                <element inactive_on_update="false" label="Quarterly" sequence="3" value="quarterly"/>
+                <element inactive_on_update="false" label="Semi-Annually" sequence="4" value="semi_annually"/>
+                <element inactive_on_update="false" label="Annually" sequence="5" value="annually"/>
+                <element inactive_on_update="false" label="Ad-hoc" sequence="6" value="ad_hoc"/>
+            </choice>
+        </element>
+        <element label="Remediation Tasks Complete?" max_length="40" name="remediation_tasks_complete" type="boolean"/>
+        <element choice="3" label="Risk Rating" max_length="40" name="risk_rating" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Very Low" sequence="0" value="very_low"/>
+                <element inactive_on_update="false" label="Low" sequence="1" value="low"/>
+                <element inactive_on_update="false" label="Moderate" sequence="2" value="moderate"/>
+                <element inactive_on_update="false" label="High" sequence="3" value="high"/>
+                <element inactive_on_update="false" label="Very High" sequence="4" value="very_high"/>
+            </choice>
+        </element>
+        <element label="Root Cause Analysis Required?" max_length="40" name="root_cause_analysis_required" type="boolean"/>
+        <element choice="3" label="Root Cause Category" max_length="40" name="root_cause_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="People" sequence="0" value="people"/>
+                <element inactive_on_update="false" label="Process" sequence="1" value="process"/>
+                <element inactive_on_update="false" label="Technology" sequence="2" value="technology"/>
+                <element inactive_on_update="false" label="External" sequence="3" value="external"/>
+            </choice>
+        </element>
+        <element label="Root Cause Description" max_length="1000" name="root_cause_description" type="string"/>
+        <element label="Root Cause Subcategory" max_length="40" name="root_cause_subcategory" type="string"/>
+        <element choice="3" label="Stage" max_length="40" name="stage" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Intake" sequence="0" value="intake"/>
+                <element inactive_on_update="false" label="Analyze" sequence="1" value="analyze"/>
+                <element inactive_on_update="false" label="Remediate" sequence="2" value="remediate"/>
+                <element inactive_on_update="false" label="Sustain" sequence="3" value="sustain"/>
+                <element inactive_on_update="false" label="Closure" sequence="4" value="closure"/>
+                <element inactive_on_update="false" label="Complete" sequence="5" value="complete"/>
+            </choice>
+        </element>
+        <element label="Team Members Responsible" max_length="1024" name="team_members_responsible" reference="sys_user" type="glide_list"/>
+        <element label="Testing Required?" max_length="40" name="testing_required" type="boolean"/>
+        <element label="Third Party Involved?" max_length="40" name="third_party_involved" type="boolean"/>
+        <element label="Urgent Issue?" max_length="40" name="urgent_issue" type="boolean"/>
+    </element>
+</database>

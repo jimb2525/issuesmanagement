@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_di_integration_setup">
+    <sys_di_integration_setup action="INSERT_OR_UPDATE">
+        <condition/>
+        <create_flow>true</create_flow>
+        <flow display_value="DocIntel Task Processing Flow - Drilling Report 2 - Process DR">44abbe6dc3308a109d0a212ad001318d</flow>
+        <flow_conditions/>
+        <mluc_id/>
+        <name>Process DR</name>
+        <sys_class_name>sys_di_integration_setup</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-07 16:45:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>08ab3e6dc3308a109d0a212ad00131e9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Process DR</sys_name>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name>sys_di_integration_setup_08ab3e6dc3308a109d0a212ad00131e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-07 16:45:27</sys_updated_on>
+        <target_table>x_snc_jab_drilli_0_drilling_report</target_table>
+        <task_definition display_value="Drilling Report 2">a8f10403c31a39109d0a212ad0013178</task_definition>
+        <trigger>x_snc_jab_drilli_0_drilling_report</trigger>
+        <type>process_task</type>
+    </sys_di_integration_setup>
+</record_update>

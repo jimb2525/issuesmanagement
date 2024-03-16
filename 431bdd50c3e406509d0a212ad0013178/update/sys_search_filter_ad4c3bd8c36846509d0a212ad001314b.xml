@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Remediation Task">2d4c3bd8c36846509d0a212ad0013139</ais_search_source>
+        <label>Remediation Task</label>
+        <name>Remediation Task</name>
+        <order>300</order>
+        <search_context_config display_value="Issues Management Workspace AI Search Configuration">bf3c77d8c46846501dd25e46d7a822a9</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 13:59:45</sys_created_on>
+        <sys_id>ad4c3bd8c36846509d0a212ad001314b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Remediation Task</sys_name>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name>sys_search_filter_ad4c3bd8c36846509d0a212ad001314b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 13:59:45</sys_updated_on>
+    </sys_search_filter>
+</record_update>

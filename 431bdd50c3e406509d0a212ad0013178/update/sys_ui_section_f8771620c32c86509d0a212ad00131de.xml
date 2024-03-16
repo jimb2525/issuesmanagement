@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Issue Form Details" section_id="f8771620c32c86509d0a212ad00131de" sys_domain="global" table="x_snc_jab_issues_0_issue" version="3" view="workspace-issues-management-workspace-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>issue_date</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:53</sys_created_on>
+            <sys_id>60f75660c32c86509d0a212ad0013120</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>issue_awareness_date</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:53</sys_created_on>
+            <sys_id>68f75660c32c86509d0a212ad0013120</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>division</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:53</sys_created_on>
+            <sys_id>6cf75660c32c86509d0a212ad0013120</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>client</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:53</sys_created_on>
+            <sys_id>60f75660c32c86509d0a212ad0013121</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>deadline_date</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:53</sys_created_on>
+            <sys_id>64f75660c32c86509d0a212ad0013121</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>financial_impact_to_client</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:53</sys_created_on>
+            <sys_id>68f75660c32c86509d0a212ad0013121</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>known_financial_impact_to_client</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:53</sys_created_on>
+            <sys_id>6cf75660c32c86509d0a212ad0013121</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>min_est_financial_impact</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>60f75660c32c86509d0a212ad0013122</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>max_est_financial_impact</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>64f75660c32c86509d0a212ad0013122</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>client_aware_of_issue</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>68f75660c32c86509d0a212ad0013122</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>client_relationship_impact</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>6cf75660c32c86509d0a212ad0013122</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>client_relationship_details</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>60f75660c32c86509d0a212ad0013123</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>confidential_information_disclosure</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>64f75660c32c86509d0a212ad0013123</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_performance_period</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>68f75660c32c86509d0a212ad0013123</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>planned_countermeasures</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>6cf75660c32c86509d0a212ad0013123</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>60f75660c32c86509d0a212ad0013124</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>engagement</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>64f75660c32c86509d0a212ad0013124</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>jurisdiction</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>68f75660c32c86509d0a212ad0013124</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>period_s_impacted</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>6cf75660c32c86509d0a212ad0013124</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>impending_deadline</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>60f75660c32c86509d0a212ad0013125</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>financial_impact_to_ryan</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>64f75660c32c86509d0a212ad0013125</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>known_financial_impact_to_ryan</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>68f75660c32c86509d0a212ad0013125</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>min_est_financial_impact_to_ryan</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>6cf75660c32c86509d0a212ad0013125</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>max_est_financial_impact_to_ryan</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>60f75660c32c86509d0a212ad0013126</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>m_a_related_issue</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>64f75660c32c86509d0a212ad0013126</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>m_a_related_company</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>68f75660c32c86509d0a212ad0013126</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>m_a_issue_occurence</element>
+            <position>26</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>6cf75660c32c86509d0a212ad0013126</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>third_party_involved</element>
+            <position>27</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>60f75660c32c86509d0a212ad0013127</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>control_gap_in_process</element>
+            <position>28</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>64f75660c32c86509d0a212ad0013127</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>control_gap_description</element>
+            <position>29</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>68f75660c32c86509d0a212ad0013127</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>team_members_responsible</element>
+            <position>30</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:19:54</sys_created_on>
+            <sys_id>6cf75660c32c86509d0a212ad0013127</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Issue Form Details" display_value="Issue Form Details" name="x_snc_jab_issues_0_issue" sys_domain="global" view="ff3c77d807684650e3685689ffbe75a8">f8771620c32c86509d0a212ad00131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Issue Form Details</caption>
+            <header>false</header>
+            <name>x_snc_jab_issues_0_issue</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:17:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8771620c32c86509d0a212ad00131de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_jab_issues_0_issue</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+            <sys_update_name>sys_ui_section_f8771620c32c86509d0a212ad00131de</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:17:44</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Issues Management Workspace 0" name="workspace-issues-management-workspace-0">ff3c77d807684650e3685689ffbe75a8</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

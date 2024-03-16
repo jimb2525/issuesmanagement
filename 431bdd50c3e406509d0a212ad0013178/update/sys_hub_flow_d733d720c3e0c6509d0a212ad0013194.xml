@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=570000,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>generate_remediation_tasks</internal_name>
+        <label_cache>[{"name":"subflow.issue","label":"Input➛Issue","reference":"x_snc_jab_issues_0_issue","reference_display":"Issue","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"41402736-5974-4cf6-980d-006d811a167d","uiTypeLabel":"Reference"}}]</label_cache>
+        <master_snapshot>36659f24c3e0c6509d0a212ad001315e</master_snapshot>
+        <name>Generate Remediation Tasks</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:38:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d733d720c3e0c6509d0a212ad0013194</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Generate Remediation Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name>sys_hub_flow_d733d720c3e0c6509d0a212ad0013194</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:29</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=d733d720c3e0c6509d0a212ad0013194"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d733d720c3e0c6509d0a212ad0013194"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=d733d720c3e0c6509d0a212ad0013194"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=d733d720c3e0c6509d0a212ad0013194"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d733d720c3e0c6509d0a212ad0013194^sys_idNOT IN9733d720c3e0c6509d0a212ad0013195"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d733d720c3e0c6509d0a212ad0013194</id>
+        <name>Generate Remediation Tasks</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:38:57</sys_created_on>
+        <sys_id>9733d720c3e0c6509d0a212ad0013195</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:38:57</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=9733d720c3e0c6509d0a212ad0013195"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=d733d720c3e0c6509d0a212ad0013194^sys_idNOT INfc651f24c3e0c6509d0a212ad001316a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=41402736-5974-4cf6-980d-006d811a167d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_snc_jab_issues_0_issue</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>issue</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Issue</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Generate Remediation Tasks">d733d720c3e0c6509d0a212ad0013194</model>
+        <model_id>d733d720c3e0c6509d0a212ad0013194</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_d733d720c3e0c6509d0a212ad0013194</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_snc_jab_issues_0_issue">x_snc_jab_issues_0_issue</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:20</sys_created_on>
+        <sys_id>fc651f24c3e0c6509d0a212ad001316a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fc651f24c3e0c6509d0a212ad001316a"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=d733d720c3e0c6509d0a212ad0013194"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d733d720c3e0c6509d0a212ad0013194"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d733d720c3e0c6509d0a212ad0013194^sys_idNOT IN01651f24c3e0c6509d0a212ad0013188,0d651f24c3e0c6509d0a212ad0013194,78651f24c3e0c6509d0a212ad0013179,81651f24c3e0c6509d0a212ad001319b,85651f24c3e0c6509d0a212ad001318e,89651f24c3e0c6509d0a212ad0013181"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Generate Remediation Tasks">d733d720c3e0c6509d0a212ad0013194</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>01651f24c3e0c6509d0a212ad0013188</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-21 12:31:41</sys_updated_on>
+        <ui_id>1e380f74-dc6d-4e44-b5dc-d2e34f6b3f33</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=01651f24c3e0c6509d0a212ad0013188"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>01651f24c3e0c6509d0a212ad0013188</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>85651f24c3e0c6509d0a212ad0013189</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:21</sys_updated_on>
+        <value>x_snc_jab_issues_0_remediation_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=01651f24c3e0c6509d0a212ad0013188"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>01651f24c3e0c6509d0a212ad0013188</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>05651f24c3e0c6509d0a212ad0013189</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{subflow.issue}}^short_description=AH should be reviewing tasks at a company level at regular intervals to track timely completion^due_date=2024-02-10 01:00:00^assigned_to={"display":"Lacy Woodfin","value":"56826bf03710200044e0bfc8bcbe5db8","table":"sys_user","sys_id":"56826bf03710200044e0bfc8bcbe5db8"}^assignment_group={"display":"BU Remediators","value":"df54dfa0c3e0c6509d0a212ad001319f","sys_id":"df54dfa0c3e0c6509d0a212ad001319f"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>01651f24c3e0c6509d0a212ad0013188</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>41651f24c3e0c6509d0a212ad0013189</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=01651f24c3e0c6509d0a212ad0013188"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=01651f24c3e0c6509d0a212ad0013188"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Generate Remediation Tasks">d733d720c3e0c6509d0a212ad0013194</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>0d651f24c3e0c6509d0a212ad0013194</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-21 12:31:41</sys_updated_on>
+        <ui_id>11f5d1c4-2592-4296-99c7-2683c585b8ae</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0d651f24c3e0c6509d0a212ad0013194"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0d651f24c3e0c6509d0a212ad0013194</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>81651f24c3e0c6509d0a212ad0013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:21</sys_updated_on>
+        <value>x_snc_jab_issues_0_remediation_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0d651f24c3e0c6509d0a212ad0013194"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>0d651f24c3e0c6509d0a212ad0013194</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>01651f24c3e0c6509d0a212ad0013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{subflow.issue}}^short_description=File penalty and interest waiver^due_date=2024-02-28 01:00:00^assigned_to={"display":"Haley Rocheford","value":"3e82abf03710200044e0bfc8bcbe5d24","table":"sys_user","sys_id":"3e82abf03710200044e0bfc8bcbe5d24"}^assignment_group={"display":"BU Remediators","value":"df54dfa0c3e0c6509d0a212ad001319f","sys_id":"df54dfa0c3e0c6509d0a212ad001319f"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>0d651f24c3e0c6509d0a212ad0013194</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>4d651f24c3e0c6509d0a212ad0013195</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0d651f24c3e0c6509d0a212ad0013194"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0d651f24c3e0c6509d0a212ad0013194"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Generate Remediation Tasks">d733d720c3e0c6509d0a212ad0013194</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>78651f24c3e0c6509d0a212ad0013179</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-21 12:31:41</sys_updated_on>
+        <ui_id>ec716f16-a6c4-45dc-afbe-bb232ad9d7a3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=78651f24c3e0c6509d0a212ad0013179"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>78651f24c3e0c6509d0a212ad0013179</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>f0651f24c3e0c6509d0a212ad001317c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:21</sys_updated_on>
+        <value>x_snc_jab_issues_0_remediation_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=78651f24c3e0c6509d0a212ad0013179"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>78651f24c3e0c6509d0a212ad0013179</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>70651f24c3e0c6509d0a212ad001317c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{subflow.issue}}^short_description=Create a standardized project onboarding/database implementation checklist with deadlines for the practice^assigned_to={"display":"Barb Santarelli","value":"e9ea758087d4c910a75c0e16cebb3551","table":"sys_user","sys_id":"e9ea758087d4c910a75c0e16cebb3551"}^due_date=2024-03-31 01:00:00</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>78651f24c3e0c6509d0a212ad0013179</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>b8651f24c3e0c6509d0a212ad001317b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=78651f24c3e0c6509d0a212ad0013179"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=78651f24c3e0c6509d0a212ad0013179"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Generate Remediation Tasks">d733d720c3e0c6509d0a212ad0013194</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>81651f24c3e0c6509d0a212ad001319b</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-21 12:31:41</sys_updated_on>
+        <ui_id>7037dbe3-9b96-4e50-80d4-7f4bd655c62e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=81651f24c3e0c6509d0a212ad001319b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>81651f24c3e0c6509d0a212ad001319b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>09651f24c3e0c6509d0a212ad001319c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:21</sys_updated_on>
+        <value>x_snc_jab_issues_0_remediation_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=81651f24c3e0c6509d0a212ad001319b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>81651f24c3e0c6509d0a212ad001319b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>85651f24c3e0c6509d0a212ad001319c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{subflow.issue}}^short_description=Complete a credit memo crediting $50,000 to the client on a future invoice^due_date=2024-02-28 01:00:00^assigned_to={"display":"Jaclyn Gonzalo","value":"cfda318087d4c910a75c0e16cebb35f5","table":"sys_user","sys_id":"cfda318087d4c910a75c0e16cebb35f5"}^assignment_group={"display":"Legal Remediators","value":"a084dfa0c3e0c6509d0a212ad00131a9","sys_id":"a084dfa0c3e0c6509d0a212ad00131a9"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>81651f24c3e0c6509d0a212ad001319b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>c1651f24c3e0c6509d0a212ad001319c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=81651f24c3e0c6509d0a212ad001319b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=81651f24c3e0c6509d0a212ad001319b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Generate Remediation Tasks">d733d720c3e0c6509d0a212ad0013194</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>85651f24c3e0c6509d0a212ad001318e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-21 12:31:41</sys_updated_on>
+        <ui_id>651d11f5-87aa-45f2-b4a5-8ac937b04f58</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=85651f24c3e0c6509d0a212ad001318e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>85651f24c3e0c6509d0a212ad001318e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>0d651f24c3e0c6509d0a212ad001318f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:21</sys_updated_on>
+        <value>x_snc_jab_issues_0_remediation_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=85651f24c3e0c6509d0a212ad001318e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>85651f24c3e0c6509d0a212ad001318e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>89651f24c3e0c6509d0a212ad001318f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{subflow.issue}}^short_description=Create a system generated notification when CSRs are changed between team members^due_date=2024-02-15 01:00:00^assigned_to={"display":"Kalinda Ludman","value":"4bda718087d4c910a75c0e16cebb3500","table":"sys_user","sys_id":"4bda718087d4c910a75c0e16cebb3500"}^assignment_group={"display":"BU Remediators","value":"df54dfa0c3e0c6509d0a212ad001319f","sys_id":"df54dfa0c3e0c6509d0a212ad001319f"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>85651f24c3e0c6509d0a212ad001318e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>c5651f24c3e0c6509d0a212ad001318f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=85651f24c3e0c6509d0a212ad001318e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=85651f24c3e0c6509d0a212ad001318e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Generate Remediation Tasks">d733d720c3e0c6509d0a212ad0013194</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>89651f24c3e0c6509d0a212ad0013181</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-21 12:31:41</sys_updated_on>
+        <ui_id>86e19d3e-4e2b-4123-b98d-e4a4e33821c2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=89651f24c3e0c6509d0a212ad0013181"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>89651f24c3e0c6509d0a212ad0013181</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>01651f24c3e0c6509d0a212ad0013183</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:21</sys_updated_on>
+        <value>x_snc_jab_issues_0_remediation_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=89651f24c3e0c6509d0a212ad0013181"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>89651f24c3e0c6509d0a212ad0013181</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>8d651f24c3e0c6509d0a212ad0013182</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{subflow.issue}}^short_description=Ensure PropertyPoint CSR assignments are accurate so tasks can be tagged to the correct team for deadline tracking^assigned_to={"display":"Galven Hamor","value":"7dea758087d4c910a75c0e16cebb356f","table":"sys_user","sys_id":"7dea758087d4c910a75c0e16cebb356f"}^due_date=2024-05-15 01:00:00</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>89651f24c3e0c6509d0a212ad0013181</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:21</sys_created_on>
+        <sys_id>c9651f24c3e0c6509d0a212ad0013182</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=89651f24c3e0c6509d0a212ad0013181"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=89651f24c3e0c6509d0a212ad0013181"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=d733d720c3e0c6509d0a212ad0013194"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d733d720c3e0c6509d0a212ad0013194"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d733d720c3e0c6509d0a212ad0013194"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d733d720c3e0c6509d0a212ad0013194"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d733d720c3e0c6509d0a212ad0013194^sys_idNOT IN74651f24c3e0c6509d0a212ad0013170"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>issue</element>
+        <help/>
+        <hint/>
+        <label>Issue</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d733d720c3e0c6509d0a212ad0013194</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:20</sys_created_on>
+        <sys_id>74651f24c3e0c6509d0a212ad0013170</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d733d720c3e0c6509d0a212ad0013194"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_d733d720c3e0c6509d0a212ad0013194"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d733d720c3e0c6509d0a212ad0013194"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>generate_remediation_tasks</internal_name>
+        <label_cache>[{"name":"subflow.issue","label":"Input➛Issue","reference":"x_snc_jab_issues_0_issue","reference_display":"Issue","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"41402736-5974-4cf6-980d-006d811a167d","uiTypeLabel":"Reference"}}]</label_cache>
+        <master>true</master>
+        <name>Generate Remediation Tasks</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Generate Remediation Tasks">d733d720c3e0c6509d0a212ad0013194</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>36659f24c3e0c6509d0a212ad001315e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:28</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=36659f24c3e0c6509d0a212ad001315e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=36659f24c3e0c6509d0a212ad001315e"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=36659f24c3e0c6509d0a212ad001315e"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=36659f24c3e0c6509d0a212ad001315e"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=36659f24c3e0c6509d0a212ad001315e^sys_idNOT INf2659f24c3e0c6509d0a212ad001315f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>36659f24c3e0c6509d0a212ad001315e</id>
+        <name>Generate Remediation Tasks</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:28</sys_created_on>
+        <sys_id>f2659f24c3e0c6509d0a212ad001315f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:28</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f2659f24c3e0c6509d0a212ad001315f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=36659f24c3e0c6509d0a212ad001315e^sys_idNOT INf6659f24c3e0c6509d0a212ad0013160"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=41402736-5974-4cf6-980d-006d811a167d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_snc_jab_issues_0_issue</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>issue</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Issue</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Generate Remediation Tasks">36659f24c3e0c6509d0a212ad001315e</model>
+        <model_id>36659f24c3e0c6509d0a212ad001315e</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_36659f24c3e0c6509d0a212ad001315e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_snc_jab_issues_0_issue">x_snc_jab_issues_0_issue</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:28</sys_created_on>
+        <sys_id>f6659f24c3e0c6509d0a212ad0013160</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f6659f24c3e0c6509d0a212ad0013160"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=36659f24c3e0c6509d0a212ad001315e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=36659f24c3e0c6509d0a212ad001315e"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=36659f24c3e0c6509d0a212ad001315e^sys_idNOT IN3e659f24c3e0c6509d0a212ad00131ac,76659f24c3e0c6509d0a212ad00131a6,ba659f24c3e0c6509d0a212ad00131b9,be659f24c3e0c6509d0a212ad001319f,f2659f24c3e0c6509d0a212ad00131b3,f6659f24c3e0c6509d0a212ad0013199"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Generate Remediation Tasks">36659f24c3e0c6509d0a212ad001315e</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:28</sys_created_on>
+        <sys_id>3e659f24c3e0c6509d0a212ad00131ac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:28</sys_updated_on>
+        <ui_id>651d11f5-87aa-45f2-b4a5-8ac937b04f58</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3e659f24c3e0c6509d0a212ad00131ac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3e659f24c3e0c6509d0a212ad00131ac</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:28</sys_created_on>
+        <sys_id>b2659f24c3e0c6509d0a212ad00131ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:28</sys_updated_on>
+        <value>x_snc_jab_issues_0_remediation_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3e659f24c3e0c6509d0a212ad00131ac"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>3e659f24c3e0c6509d0a212ad00131ac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:28</sys_created_on>
+        <sys_id>32659f24c3e0c6509d0a212ad00131ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{subflow.issue}}^short_description=Create a system generated notification when CSRs are changed between team members^due_date=2024-02-15 01:00:00^assigned_to={"display":"Kalinda Ludman","value":"4bda718087d4c910a75c0e16cebb3500","table":"sys_user","sys_id":"4bda718087d4c910a75c0e16cebb3500"}^assignment_group={"display":"BU Remediators","value":"df54dfa0c3e0c6509d0a212ad001319f","sys_id":"df54dfa0c3e0c6509d0a212ad001319f"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>3e659f24c3e0c6509d0a212ad00131ac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:28</sys_created_on>
+        <sys_id>7e659f24c3e0c6509d0a212ad00131ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3e659f24c3e0c6509d0a212ad00131ac"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3e659f24c3e0c6509d0a212ad00131ac"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Generate Remediation Tasks">36659f24c3e0c6509d0a212ad001315e</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:28</sys_created_on>
+        <sys_id>76659f24c3e0c6509d0a212ad00131a6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:28</sys_updated_on>
+        <ui_id>1e380f74-dc6d-4e44-b5dc-d2e34f6b3f33</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=76659f24c3e0c6509d0a212ad00131a6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>76659f24c3e0c6509d0a212ad00131a6</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:28</sys_created_on>
+        <sys_id>fa659f24c3e0c6509d0a212ad00131a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:28</sys_updated_on>
+        <value>x_snc_jab_issues_0_remediation_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=76659f24c3e0c6509d0a212ad00131a6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>76659f24c3e0c6509d0a212ad00131a6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:28</sys_created_on>
+        <sys_id>7a659f24c3e0c6509d0a212ad00131a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{subflow.issue}}^short_description=AH should be reviewing tasks at a company level at regular intervals to track timely completion^due_date=2024-02-10 01:00:00^assigned_to={"display":"Lacy Woodfin","value":"56826bf03710200044e0bfc8bcbe5db8","table":"sys_user","sys_id":"56826bf03710200044e0bfc8bcbe5db8"}^assignment_group={"display":"BU Remediators","value":"df54dfa0c3e0c6509d0a212ad001319f","sys_id":"df54dfa0c3e0c6509d0a212ad001319f"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>76659f24c3e0c6509d0a212ad00131a6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:28</sys_created_on>
+        <sys_id>b6659f24c3e0c6509d0a212ad00131a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=76659f24c3e0c6509d0a212ad00131a6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=76659f24c3e0c6509d0a212ad00131a6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Generate Remediation Tasks">36659f24c3e0c6509d0a212ad001315e</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:29</sys_created_on>
+        <sys_id>ba659f24c3e0c6509d0a212ad00131b9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:29</sys_updated_on>
+        <ui_id>7037dbe3-9b96-4e50-80d4-7f4bd655c62e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ba659f24c3e0c6509d0a212ad00131b9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ba659f24c3e0c6509d0a212ad00131b9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:29</sys_created_on>
+        <sys_id>32659f24c3e0c6509d0a212ad00131bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:29</sys_updated_on>
+        <value>x_snc_jab_issues_0_remediation_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ba659f24c3e0c6509d0a212ad00131b9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>ba659f24c3e0c6509d0a212ad00131b9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:29</sys_created_on>
+        <sys_id>be659f24c3e0c6509d0a212ad00131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{subflow.issue}}^short_description=Complete a credit memo crediting $50,000 to the client on a future invoice^due_date=2024-02-28 01:00:00^assigned_to={"display":"Jaclyn Gonzalo","value":"cfda318087d4c910a75c0e16cebb35f5","table":"sys_user","sys_id":"cfda318087d4c910a75c0e16cebb35f5"}^assignment_group={"display":"Legal Remediators","value":"a084dfa0c3e0c6509d0a212ad00131a9","sys_id":"a084dfa0c3e0c6509d0a212ad00131a9"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>ba659f24c3e0c6509d0a212ad00131b9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:29</sys_created_on>
+        <sys_id>fa659f24c3e0c6509d0a212ad00131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ba659f24c3e0c6509d0a212ad00131b9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ba659f24c3e0c6509d0a212ad00131b9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Generate Remediation Tasks">36659f24c3e0c6509d0a212ad001315e</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:28</sys_created_on>
+        <sys_id>be659f24c3e0c6509d0a212ad001319f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:28</sys_updated_on>
+        <ui_id>86e19d3e-4e2b-4123-b98d-e4a4e33821c2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=be659f24c3e0c6509d0a212ad001319f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>be659f24c3e0c6509d0a212ad001319f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:28</sys_created_on>
+        <sys_id>36659f24c3e0c6509d0a212ad00131a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:28</sys_updated_on>
+        <value>x_snc_jab_issues_0_remediation_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=be659f24c3e0c6509d0a212ad001319f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>be659f24c3e0c6509d0a212ad001319f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:28</sys_created_on>
+        <sys_id>b2659f24c3e0c6509d0a212ad00131a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{subflow.issue}}^short_description=Ensure PropertyPoint CSR assignments are accurate so tasks can be tagged to the correct team for deadline tracking^assigned_to={"display":"Galven Hamor","value":"7dea758087d4c910a75c0e16cebb356f","table":"sys_user","sys_id":"7dea758087d4c910a75c0e16cebb356f"}^due_date=2024-05-15 01:00:00</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>be659f24c3e0c6509d0a212ad001319f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:28</sys_created_on>
+        <sys_id>fe659f24c3e0c6509d0a212ad00131a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=be659f24c3e0c6509d0a212ad001319f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=be659f24c3e0c6509d0a212ad001319f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Generate Remediation Tasks">36659f24c3e0c6509d0a212ad001315e</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:29</sys_created_on>
+        <sys_id>f2659f24c3e0c6509d0a212ad00131b3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:29</sys_updated_on>
+        <ui_id>11f5d1c4-2592-4296-99c7-2683c585b8ae</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f2659f24c3e0c6509d0a212ad00131b3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f2659f24c3e0c6509d0a212ad00131b3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:29</sys_created_on>
+        <sys_id>7a659f24c3e0c6509d0a212ad00131b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:29</sys_updated_on>
+        <value>x_snc_jab_issues_0_remediation_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f2659f24c3e0c6509d0a212ad00131b3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>f2659f24c3e0c6509d0a212ad00131b3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:29</sys_created_on>
+        <sys_id>f6659f24c3e0c6509d0a212ad00131b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{subflow.issue}}^short_description=File penalty and interest waiver^due_date=2024-02-28 01:00:00^assigned_to={"display":"Haley Rocheford","value":"3e82abf03710200044e0bfc8bcbe5d24","table":"sys_user","sys_id":"3e82abf03710200044e0bfc8bcbe5d24"}^assignment_group={"display":"BU Remediators","value":"df54dfa0c3e0c6509d0a212ad001319f","sys_id":"df54dfa0c3e0c6509d0a212ad001319f"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>f2659f24c3e0c6509d0a212ad00131b3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:29</sys_created_on>
+        <sys_id>36659f24c3e0c6509d0a212ad00131b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f2659f24c3e0c6509d0a212ad00131b3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f2659f24c3e0c6509d0a212ad00131b3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Generate Remediation Tasks">36659f24c3e0c6509d0a212ad001315e</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:28</sys_created_on>
+        <sys_id>f6659f24c3e0c6509d0a212ad0013199</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:28</sys_updated_on>
+        <ui_id>ec716f16-a6c4-45dc-afbe-bb232ad9d7a3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f6659f24c3e0c6509d0a212ad0013199"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f6659f24c3e0c6509d0a212ad0013199</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:28</sys_created_on>
+        <sys_id>7e659f24c3e0c6509d0a212ad001319a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:28</sys_updated_on>
+        <value>x_snc_jab_issues_0_remediation_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f6659f24c3e0c6509d0a212ad0013199"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>f6659f24c3e0c6509d0a212ad0013199</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:28</sys_created_on>
+        <sys_id>fa659f24c3e0c6509d0a212ad001319a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{subflow.issue}}^short_description=Create a standardized project onboarding/database implementation checklist with deadlines for the practice^assigned_to={"display":"Barb Santarelli","value":"e9ea758087d4c910a75c0e16cebb3551","table":"sys_user","sys_id":"e9ea758087d4c910a75c0e16cebb3551"}^due_date=2024-03-31 01:00:00</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>f6659f24c3e0c6509d0a212ad0013199</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:28</sys_created_on>
+        <sys_id>3a659f24c3e0c6509d0a212ad001319a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f6659f24c3e0c6509d0a212ad0013199"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f6659f24c3e0c6509d0a212ad0013199"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=36659f24c3e0c6509d0a212ad001315e"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=36659f24c3e0c6509d0a212ad001315e"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=36659f24c3e0c6509d0a212ad001315e"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=36659f24c3e0c6509d0a212ad001315e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_36659f24c3e0c6509d0a212ad001315e^sys_idNOT INba659f24c3e0c6509d0a212ad001317f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>issue</element>
+        <help/>
+        <hint/>
+        <label>Issue</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_36659f24c3e0c6509d0a212ad001315e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:28</sys_created_on>
+        <sys_id>ba659f24c3e0c6509d0a212ad001317f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_36659f24c3e0c6509d0a212ad001315e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_36659f24c3e0c6509d0a212ad001315e"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_36659f24c3e0c6509d0a212ad001315e"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>d733d720c3e0c6509d0a212ad0013194</sys_id>
+        <latest_snapshot>36659f24c3e0c6509d0a212ad001315e</latest_snapshot>
+        <compiler_build>glide-vancouver-07-06-2023__patch5-12-01-2023_12-11-2023_2006.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=d733d720c3e0c6509d0a212ad0013194"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=d733d720c3e0c6509d0a212ad0013194^sys_idNOT INc7659f24c3e0c6509d0a212ad00131db"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"c7659f24c3e0c6509d0a212ad00131db","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Generate Remediation Tasks">d733d720c3e0c6509d0a212ad0013194</plan_id>
+        <snapshot>89b1b4b4c3acc6509d0a212ad00131d3</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:48:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c7659f24c3e0c6509d0a212ad00131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:48:29</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

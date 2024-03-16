@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Issues Management Intake">0a3852a0c32c86509d0a212ad00131bb</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 01:46:47</sys_created_on>
+        <sys_id>d21ed2acc32c86509d0a212ad001312e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Issues Management Intake</sys_name>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_d21ed2acc32c86509d0a212ad001312e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 01:46:47</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</application>
+        <file_path/>
+        <instance_id>c90f569cdbe9d1d0b847ac44d496198f</instance_id>
+        <instance_name>jbelote16demo</instance_name>
+        <name>sc_cat_item_catalog_d21ed2acc32c86509d0a212ad001312e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Issues Management Intake">0a3852a0c32c86509d0a212ad00131bb</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-21 01:46:47</sys_created_on><sys_id>d21ed2acc32c86509d0a212ad001312e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Issues Management Intake</sys_name><sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package><sys_policy/><sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope><sys_update_name>sc_cat_item_catalog_d21ed2acc32c86509d0a212ad001312e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-21 01:46:47</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>70761905</payload_hash>
+        <record_name>Service Catalog.Issues Management Intake</record_name>
+        <reverted_from/>
+        <source>db1bdd50c3e406509d0a212ad001317c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 01:46:47</sys_created_on>
+        <sys_id>161ed2acc32c86509d0a212ad0013131</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dc9580d290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 01:46:47</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>561ed2acad2c8650a4e251456329c330</update_guid>
+        <update_guid_history>561ed2acad2c8650a4e251456329c330:70761905</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Issues Management Intake">734e9aacc32c86509d0a212ad00131f6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 01:47:42</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>350f1a9dfa9f41bb9fb559b990dd09b9</sys_id>
+        <sys_metadata>d21ed2acc32c86509d0a212ad001312e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Issues Management Intake</sys_name>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_parent display_value="Issues Management Intake">0a3852a0c32c86509d0a212ad00131bb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_scope_delete display_value="">07e64666c1fe4dbc8d052053623a9290</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_d21ed2acc32c86509d0a212ad001312e</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_d21ed2acc32c86509d0a212ad001312e">161ed2acc32c86509d0a212ad0013131</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 01:47:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <profile display_value="issues-management-workspace Search Profile">bf3c77d87c684650c15cb6e5340756b2</profile>
+        <search_source display_value="Remediation Task">2d4c3bd8c36846509d0a212ad0013139</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 13:59:45</sys_created_on>
+        <sys_id>a54c3bd8c36846509d0a212ad0013148</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>issues-management-workspace Search Profile.Remediation Task</sys_name>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_a54c3bd8c36846509d0a212ad0013148</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 13:59:45</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

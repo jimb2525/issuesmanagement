@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Issues Management Intake">0a3852a0c32c86509d0a212ad00131bb</catalog_item>
+        <catalog_variable>IO:4c4343a0c360c6509d0a212ad0013148</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 04:31:30</sys_created_on>
+        <sys_id>dbc307e0c360c6509d0a212ad00131bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>what_is_the_name_of_the_m_a_company</sys_name>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_dbc307e0c360c6509d0a212ad00131bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 04:31:30</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'what_is_the_name_of_the_m_a_company' visible depending on 'is_the_issue_related_to_a_merger_or_acquisition'">0b630ba0c360c6509d0a212ad001312d</ui_policy>
+        <variable>what_is_the_name_of_the_m_a_company</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="88be1598c3e406509d0a212ad00131bb" extends="task" label="Issue Task" max_length="40" name="x_snc_jab_issues_0_issue_task" type="collection">
+        <element label="Business Enhancement" max_length="1000" name="business_enhancement" type="string"/>
+        <element label="Finding Related to Case?" max_length="40" name="findng_related_to_case" type="boolean"/>
+        <element label="Issue" max_length="32" name="issue" reference="x_snc_jab_issues_0_issue" type="reference"/>
+        <element label="RCA Details" max_length="1000" name="rca_details" type="string"/>
+        <element label="RCA Findings" max_length="1000" name="rca_findings" type="string"/>
+    </element>
+</database>

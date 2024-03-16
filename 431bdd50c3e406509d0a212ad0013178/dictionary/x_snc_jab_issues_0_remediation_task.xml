@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="bf897b54c36846509d0a212ad001315f" extends="task" label="Remediation Task" max_length="40" name="x_snc_jab_issues_0_remediation_task" type="collection">
+        <element label="Issue" max_length="32" name="issue" reference="x_snc_jab_issues_0_issue" type="reference"/>
+    </element>
+</database>

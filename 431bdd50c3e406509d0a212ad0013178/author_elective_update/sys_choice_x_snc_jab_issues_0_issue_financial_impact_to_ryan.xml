@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="financial_impact_to_ryan" table="x_snc_jab_issues_0_issue" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>financial_impact_to_ryan</element>
+            <name>x_snc_jab_issues_0_issue</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:02:21</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>financial_impact_to_ryan</sys_name>
+            <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+            <sys_update_name>sys_choice_x_snc_jab_issues_0_issue_financial_impact_to_ryan</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:02:21</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>financial_impact_to_ryan</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Known</label>
+            <language>en</language>
+            <name>x_snc_jab_issues_0_issue</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:02:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:02:21</sys_updated_on>
+            <value>known</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>financial_impact_to_ryan</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Estimated</label>
+            <language>en</language>
+            <name>x_snc_jab_issues_0_issue</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 01:02:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 01:02:21</sys_updated_on>
+            <value>estimated</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

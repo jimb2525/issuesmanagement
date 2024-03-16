@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New Issue Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Issue Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">6931553ba5022110320fe6f97f500456</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 02:31:15</sys_created_on>
+        <sys_id>c8be5598c3e406509d0a212ad0013107</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Issue Task</sys_name>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name>sys_wizard_answer_c8be5598c3e406509d0a212ad0013107</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 02:31:15</sys_updated_on>
+        <table/>
+        <target_url>x_snc_jab_issues_0_issue_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

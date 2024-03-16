@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="65cd026cc3a886509d0a212ad001310b" extends="task" label="Engagement" max_length="40" name="x_snc_jab_issues_0_engagement" type="collection">
+        <element label="Client Principal" max_length="32" name="client_principal" reference="sys_user" type="reference"/>
+        <element label="Engagement Manager" max_length="32" name="engagement_manager" reference="sys_user" type="reference"/>
+        <element display="true" label="Engagement Name" max_length="200" name="engagement_name" type="string"/>
+        <element label="Engagement Number" max_length="40" name="engagement_number" type="string"/>
+        <element label="Engagement Principal" max_length="32" name="engagement_principal" reference="sys_user" type="reference"/>
+        <element label="Parent Practice Area" max_length="200" name="parent_practice_area" type="string"/>
+        <element label="Practice Area" max_length="200" name="practice_area" type="string"/>
+        <element label="Ryan Legal Entity" max_length="200" name="ryan_legal_entity" type="string"/>
+    </element>
+</database>

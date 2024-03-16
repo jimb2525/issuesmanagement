@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="Risk Rating Decision Policy">81e62dd4c32806509d0a212ad00131b8</decision_table>
+        <label>Flow: Issue Management - High Risk Issue</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 03:58:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b0c2fd9cc36806509d0a212ad0013125</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Flow: Issue Management - High Risk Issue</sys_name>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name>sys_decision_multi_result_b0c2fd9cc36806509d0a212ad0013125</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 03:58:57</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=b0c2fd9cc36806509d0a212ad0013125"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>b0c2fd9cc36806509d0a212ad0013125</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 03:58:57</sys_created_on>
+        <sys_id>b4c2fd9cc36806509d0a212ad0013125</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 03:58:57</sys_updated_on>
+        <value>ce11f9d8c36806509d0a212ad00131a3</value>
+        <variable display_value="Flow">748e61d4c36806509d0a212ad00131e3</variable>
+    </sys_variable_value>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_jab_issues_0_issue_task">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </condition>
+        <group/>
+        <name>Issues Management Workspace - x_snc_jab_issues_0_i</name>
+        <roles/>
+        <source_table>x_snc_jab_issues_0_issue_task</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 13:59:44</sys_created_on>
+        <sys_id>194cf7d8c36846509d0a212ad00131c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Issues Management Workspace - x_snc_jab_issues_0_i</sys_name>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name>sys_search_source_194cf7d8c36846509d0a212ad00131c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 13:59:44</sys_updated_on>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=194cf7d8c36846509d0a212ad00131c7"/>
+</record_update>

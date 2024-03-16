@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field display_value="State">38668b2147f40a10eb3b7562846d4306</source_sys_rte_eb_field>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-07 17:33:24</sys_created_on>
+        <sys_id>7e96036147f40a10eb3b7562846d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Issue Import_etl_ihub">a4664b2147f40a10eb3b7562846d4374</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="IHUB_SOURCE_TEMP_MAPPING">b296036147f40a10eb3b7562846d434b</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_7e96036147f40a10eb3b7562846d434f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-07 17:33:24</sys_updated_on>
+        <target_sys_rte_eb_field display_value="State_sn_ihub_target_state">ba96036147f40a10eb3b7562846d431e</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+</record_update>

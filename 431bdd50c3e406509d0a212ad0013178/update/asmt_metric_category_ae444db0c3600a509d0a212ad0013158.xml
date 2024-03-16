@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category">
+    <asmt_metric_category action="INSERT_OR_UPDATE">
+        <create_stakeholders>false</create_stakeholders>
+        <description>Politeness and respect</description>
+        <details/>
+        <filter/>
+        <metric_type display_value="Copy of Groups">06440db0c3600a509d0a212ad001311f</metric_type>
+        <name>Politeness</name>
+        <order>1</order>
+        <qb_evaluation_method/>
+        <roles/>
+        <scoring_type>percent</scoring_type>
+        <sys_class_name>asmt_metric_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 13:52:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ae444db0c3600a509d0a212ad0013158</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Politeness</sys_name>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name>asmt_metric_category_ae444db0c3600a509d0a212ad0013158</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 13:52:52</sys_updated_on>
+        <table>sys_user_group</table>
+        <total_metrics>2</total_metrics>
+        <weight>5</weight>
+    </asmt_metric_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=ae444db0c3600a509d0a212ad0013158"/>
+</record_update>

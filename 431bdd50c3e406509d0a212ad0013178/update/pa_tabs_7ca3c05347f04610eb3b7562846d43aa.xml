@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA Issue Owner - New Tab">78a3c05347f04610eb3b7562846d43a7</canvas_page>
+        <name>Issue Owner - New Tab</name>
+        <page display_value="PA Issue Owner - New Tab">f8a3c05347f04610eb3b7562846d43a5</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-12 13:50:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7ca3c05347f04610eb3b7562846d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Issue Owner - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name>pa_tabs_7ca3c05347f04610eb3b7562846d43aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-12 13:50:55</sys_updated_on>
+    </pa_tabs>
+</record_update>

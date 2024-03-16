@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Issues Management Intake">0a3852a0c32c86509d0a212ad00131bb</catalog_item>
+        <catalog_variable>IO:fdc2cb20c360c6509d0a212ad001319e</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 04:28:06</sys_created_on>
+        <sys_id>21038b60c360c6509d0a212ad0013157</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>client_relationship_details</sys_name>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_21038b60c360c6509d0a212ad0013157</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 04:28:06</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'client_relationship_details' visible depending on 'client_relationship_impact'">84034b60c360c6509d0a212ad0013145</ui_policy>
+        <variable>client_relationship_details</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

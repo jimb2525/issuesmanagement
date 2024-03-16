@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">97a011f3a5022110320fe6f97f500417</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-07 20:00:14</sys_created_on>
+        <sys_id>79382ba947b80a10eb3b7562846d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-07 20:00:14</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

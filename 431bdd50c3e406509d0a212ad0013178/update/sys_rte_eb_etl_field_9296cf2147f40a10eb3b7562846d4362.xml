@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field">
+    <sys_rte_eb_etl_field action="INSERT_OR_UPDATE">
+        <coalesce>false</coalesce>
+        <coercion_action>create</coercion_action>
+        <field>m_a_related_issue</field>
+        <name>M &amp; A Related Issue?</name>
+        <sys_class_name>sys_rte_eb_etl_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-07 17:33:21</sys_created_on>
+        <sys_id>9296cf2147f40a10eb3b7562846d4362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>M &amp; A Related Issue?</sys_name>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Issue Import_etl_ihub">a4664b2147f40a10eb3b7562846d4374</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Target_x_snc_jab_issues_0_issue">b8668b2147f40a10eb3b7562846d4308</sys_rte_eb_entity>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_field_9296cf2147f40a10eb3b7562846d4362</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-07 17:33:21</sys_updated_on>
+    </sys_rte_eb_etl_field>
+</record_update>

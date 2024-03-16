@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="INSERT_OR_UPDATE">
+        <decision_input display_value="Issue">b88e61d4c36806509d0a212ad00131c1</decision_input>
+        <decision_table display_value="Risk Rating Decision Policy">81e62dd4c32806509d0a212ad00131b8</decision_table>
+        <default_operator>=</default_operator>
+        <description/>
+        <field>u_issue.risk_rating</field>
+        <field_label>Issue &gt; Risk Rating</field_label>
+        <field_parent_table>x_snc_jab_issues_0_issue</field_parent_table>
+        <label>Risk Rating</label>
+        <order>100</order>
+        <parent/>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 03:40:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c58ee594c36806509d0a212ad00131ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_c58ee594c36806509d0a212ad00131ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 03:40:24</sys_updated_on>
+        <type display_value="Choice">5217a7c1bf3320001875647fcf0739b7</type>
+    </sn_decision_table_decision_condition>
+</record_update>

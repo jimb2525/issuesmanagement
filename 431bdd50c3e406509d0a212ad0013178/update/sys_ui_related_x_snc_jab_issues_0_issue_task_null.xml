@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_snc_jab_issues_0_issue_task" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Issue Task - Default view" name="x_snc_jab_issues_0_issue_task" related_list="NULL" sys_domain="global" view="Default view">8da281fcc3200a509d0a212ad001318f</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>time_card.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 13:45:41</sys_created_on>
+            <sys_id>41a281fcc3200a509d0a212ad0013192</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 13:45:41</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Issue Task - Default view</calculated_name>
+            <filter/>
+            <name>x_snc_jab_issues_0_issue_task</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 13:45:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8da281fcc3200a509d0a212ad001318f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Issue Task - Default view</sys_name>
+            <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+            <sys_update_name>sys_ui_related_x_snc_jab_issues_0_issue_task_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 13:45:41</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
