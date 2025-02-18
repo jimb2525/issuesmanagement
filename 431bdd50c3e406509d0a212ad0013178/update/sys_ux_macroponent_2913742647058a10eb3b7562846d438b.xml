@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "container_1",
+        "elementLabel": "Container 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "2eda8d95aae6d05a26d94fbf692ac6f9",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "iframe_1",
+                    "elementLabel": "iFrame 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "disableSandbox": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "height": {
+                            "type": "JSON_LITERAL",
+                            "value": "300"
+                        },
+                        "src": {
+                            "type": "JSON_LITERAL",
+                            "value": "https://jbelote16demo.service-now.com/now/issues-management-workspace/record/x_snc_jab_issues_0_issue/0dec619b47bc4610eb3b7562846d4336/params/selected-tab-index/5"
+                        },
+                        "title": {
+                            "type": "JSON_LITERAL",
+                            "value": "Wikipedia home page"
+                        },
+                        "width": {
+                            "type": "JSON_LITERAL",
+                            "value": "400"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "iframe_1",
+                            "styles": {}
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "column",
+                        "width": "100%"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "ariaRegionHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "ariaRegionName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "includeAriaHeading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "fullheight"
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "section"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "928d9099c834b4b315b1d4dad8e7a9fe",
+            "type": "MACROPONENT"
+        },
+        "elementId": "document_display_1",
+        "elementLabel": "Document display 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "attachmentId": {
+                "type": "JSON_LITERAL",
+                "value": "8a68cfffc35531509d0a212ad0013199"
+            },
+            "attachmentType": {
+                "type": "JSON_LITERAL",
+                "value": "pdf"
+            },
+            "documentType": {
+                "type": "JSON_LITERAL",
+                "value": "attachment"
+            },
+            "editorHeight": {
+                "type": "JSON_LITERAL",
+                "value": "500"
+            },
+            "editorMaxHeight": {
+                "type": "JSON_LITERAL",
+                "value": "1000"
+            },
+            "enableEditing": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideClose": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideDelete": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideDownload": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideNavigation": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideRotation": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideSearch": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideToolbar": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideZoom": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "htmlContent": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "resizable": {
+                "type": "JSON_LITERAL",
+                "value": false
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    
+]</data>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors>{}</form_factors>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "container_1",
+                "styles": {}
+            },
+            {
+                "element_id": "document_display_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[
+    
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 19:38:28</sys_created_on>
+        <sys_id>2913742647058a10eb3b7562846d438b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="JAB Issues Management" source="x_snc_jab_issues_0">431bdd50c3e406509d0a212ad0013178</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JAB Issues Management">431bdd50c3e406509d0a212ad0013178</sys_scope>
+        <sys_update_name>sys_ux_macroponent_2913742647058a10eb3b7562846d438b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 19:54:21</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=2913742647058a10eb3b7562846d438b"/>
+</record_update>
